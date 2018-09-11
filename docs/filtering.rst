@@ -35,7 +35,7 @@ Using `jQuery`_:
 
 .. sourcecode:: javascript
 
-   var filters = [{"name": "id", "op": "like", "val": "%y%"}];
+   var filters = [{"name": "name", "op": "like", "val": "%y%"}];
    $.ajax({
      data: {"filter[objects]": JSON.stringify(filters)},
      headers: {
